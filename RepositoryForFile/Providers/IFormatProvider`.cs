@@ -8,7 +8,7 @@ namespace RepositoryForFile.Providers
 {
    interface IFormatProvider<T>
     {
-        string Serializ(T model);
+        string Serialize(T model);
         T Deserialize(string model);
     }
 }

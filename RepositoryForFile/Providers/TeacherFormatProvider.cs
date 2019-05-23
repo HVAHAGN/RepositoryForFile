@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace RepositoryForFile.Providers
 {
    public  class TeacherFormatProvider:IFormatProvider<Teacher>
     {
-        public string Serializ(Teacher model)
+        public string Serialize(Teacher model)
         {
             return $"{model.Name}{model.Surname}{model.Age}";
         }

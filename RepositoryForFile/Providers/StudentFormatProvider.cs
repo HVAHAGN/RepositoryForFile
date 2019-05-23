@@ -26,7 +26,7 @@ namespace RepositoryForFile.Providers
             return st;
         }
 
-        public string Serializ(Student model)
+        public string Serialize(Student model)
         {
             return $"{model.Name}^{model.Surname}^{model.Age}";
         }

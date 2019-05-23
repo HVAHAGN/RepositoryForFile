@@ -50,7 +50,9 @@
     <Compile Include="Providers\IFormatProvider`.cs" />
     <Compile Include="Providers\StudentFormatProvider.cs" />
     <Compile Include="Providers\TeacherFormatProvider.cs" />
-    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\BaseRepository`.cs" />
+    <Compile Include="Repositories\StudentRepository.cs" />
+    <Compile Include="Repositories\TeacherRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
